@@ -5,7 +5,6 @@
 # Date:
 # -------------------------------------------------------------------------
 
-
 # Load dependencies -------------------------------------------------------
 
 # Load dependencies
@@ -27,7 +26,8 @@ library(palmerpenguins) # Palmer Archipelago (Antarctica) Penguin Data
 ui <- dashboardPage(
     # Application title
     dashboardHeader(title = "Penguins"),
-    # Sidebar with a slider input for number of bins
+    
+    # Sidebar with check box
     dashboardSidebar(
         checkboxGroupInput(
             "penguinType",
@@ -40,12 +40,11 @@ ui <- dashboardPage(
             selected = "Adelie"
         )
     ),
-    # Show a plot of the generated distribution
+    # Show a plot
     dashboardBody(echarts4rOutput("penguins"))
 )
 
 # Define server  ----------------------------------------------------------
-
 
 # Define server logic to draw a scatter plot
 server <- function(input, output) {
@@ -63,13 +62,14 @@ server <- function(input, output) {
                 )
             )
         
-        # Use echarts4r to generate a scatter plot where the bill length is plotted against weight
+        # Use echarts4r to generate a scatter plot where the flipper length is 
+        # plotted against weight
         penguins %>%
             group_by(year) %>%
             e_charts(flipper_length_mm, timeline = TRUE) %>%
             e_scatter(body_mass_g, symbol_size = 10) %>%
             e_add("itemStyle", color) %>%
-            e_axis_labels(x = "Flipper \nlength", y = "Weight (in gramm)")
+            e_axis_labels(x = "Flipper \nlength", y = "Weight (in gram)")
     
     })
 }
