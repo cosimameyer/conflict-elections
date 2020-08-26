@@ -26,7 +26,7 @@ This repository contains:
 ├── markdown
 │   ├── about.md
 │   └── git.md
-├── material_OODM_CorrelAid
+└── material_OODM_CorrelAid
     ├── example_ShinyApp
     │   └── app.R
     └── example_ShinyApp_shinydashboard
