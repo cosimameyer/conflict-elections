@@ -11,6 +11,7 @@ While the geo-spatially disaggregated data for the original publication is based
 
 This repository contains: 
 ```
+├── README.md
 ├── app.R
 ├── code
 │   ├── data.R
@@ -18,15 +19,18 @@ This repository contains:
 │   └── theme_custom.R
 ├── conflict-elections.Rproj
 ├── data
+│   ├── 1900-01-01-2020-03-22-Afghanistan.csv
 │   └── data.RData
-├── example_ShinyApp
-│   └── app.R
 ├── figures
 │   └── shinyapp-conflict.png
 ├── markdown
 │   ├── about.md
 │   └── git.md
-└── slides
+└── material_OODM_CorrelAid
+    ├── example_ShinyApp
+    │   └── app.R
+    └── example_ShinyApp_shinydashboard
+        └── app.R
 ```
 
 You can access the **slides from the OODM 2020 at CorrelAid [here](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1)**.
