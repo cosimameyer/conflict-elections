@@ -35,4 +35,5 @@ This repository contains:
 
 You can access the **slides from the OODM 2020 at CorrelAid [here](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1)**.
 
-[Blog post about how to make your app faster](https://appsilon.com/r-shiny-faster-updateinput-css-javascript/).
+
+⚡ [Blog post about how to make your app faster](https://appsilon.com/r-shiny-faster-updateinput-css-javascript/)
