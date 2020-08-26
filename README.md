@@ -1,1 +1,32 @@
-# conflict-elections
+# ShinyApp: Conflict Elections in Afghanistan in 2019
+
+[![](figures/shinyapp-conflict.png)](https://cosima-meyer.shinyapps.io/conflict-elections/)
+
+You can access the ShinyApp [here](https://cosima-meyer.shinyapps.io/conflict-elections/).
+
+This project is a spin-off of a co-authored publication with [Dennis Hammerschmidt](https://github.com/dennis-hammerschmidt) that [analyzes patterns of violence during conflict elections in Afghanistan](https://www.ceeol.com/search/article-detail?id=775100) in 2005.
+
+While the geo-spatially disaggregated data for the original publication is based on [UCDP data](https://ucdp.uu.se), this ShinyApp is based on [ACLED data](https://acleddata.com/#/dashboard) and shows how violence that includes the Taliban develops starting 180 days up to the election in 2019.
+
+
+This repository contains: 
+```
+├── app.R
+├── code
+│   ├── data.R
+│   ├── helper.R
+│   └── theme_custom.R
+├── conflict-elections.Rproj
+├── data
+│   └── data.RData
+├── example_ShinyApp
+│   └── app.R
+├── figures
+│   └── shinyapp-conflict.png
+├── markdown
+│   ├── about.md
+│   └── git.md
+└── slides
+```
+
+You can access the **slides from the OODM 2020 at CorrelAid [here](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1)**.
