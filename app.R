@@ -414,9 +414,9 @@ server <- function(input, output) {
         ),
         Type = case_when(
           Type == "Battles" ~ "Battles",
-          Type == "Explosions/Remote violence" ~ "Explosions/ \nRemote \nviolence",
-          Type == "Strategic developments" ~ "Strategic \ndevelopment",
-          Type == "Violence against civilians" ~ "Violence \nagainst \ncivilians"
+          Type == "Explosions/Remote violence" ~ "Explosions/\nRemote \nviolence",
+          Type == "Strategic developments" ~ "Strategic\ndevelopment",
+          Type == "Violence against civilians" ~ "Violence\nagainst \ncivilians"
         )
       )
     
@@ -433,7 +433,8 @@ server <- function(input, output) {
       e_add("itemStyle", color) %>%
       e_color(background = NULL) %>%
       e_group("grp") %>%  # assign group
-      e_connect_group("grp")
+      e_connect_group("grp") %>% 
+      e_x_axis(axisLabel = list(interval = 0, rotate = 45, fontSize = 10)) # rotate label
     
     
   })
@@ -476,7 +477,8 @@ server <- function(input, output) {
       e_toolbox_feature(feature = "saveAsImage",
                         title = "Save as image") %>%
       e_group("grp") %>%  # assign group
-      e_connect_group("grp")
+      e_connect_group("grp") %>% 
+      e_x_axis(axisLabel = list(interval = 0, rotate = 45, fontSize = 10)) # rotate label 
   })
   
   
