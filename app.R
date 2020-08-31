@@ -342,6 +342,10 @@ server <- function(input, output) {
     
   })
   
+  # custom scaling function to make sure that also zero values are shown
+  # and the different sizes are at most half of each other
+  my_scale <- function(x) scales::rescale(x, to = c(10, 20))
+  
   # The following plots (including the map) are generated with the package 
   # echarts4r (https://echarts4r.john-coene.com)
   # Map ------------------------------------------------------------------------
@@ -370,6 +374,7 @@ server <- function(input, output) {
       e_scatter(
         latitude,
         size = Fatalities,
+        scale = my_scale,
         coord_system = "geo",
         legend = FALSE
       ) %>%
