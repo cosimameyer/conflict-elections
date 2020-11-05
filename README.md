@@ -1,5 +1,7 @@
 # ShinyApp: Conflict Elections in Afghanistan in 2019
 
+## What the project is about
+
 [![](figures/shinyapp-conflict.png)](https://cosima-meyer.shinyapps.io/conflict-elections/)
 
 You can access the ShinyApp [here](https://cosima-meyer.shinyapps.io/conflict-elections/).
@@ -8,7 +10,15 @@ This project is a spin-off of a co-authored publication with [Dennis Hammerschmi
 
 While the geo-spatially disaggregated data for the original publication is based on [UCDP data](https://ucdp.uu.se), this ShinyApp is based on [ACLED data](https://acleddata.com/#/dashboard) and shows how violence that includes the Taliban develops starting 180 days up to the election in 2019.
 
+## Material
 
+You can access the material for past talks on this ShinyApp here:
+| Event                           |                                                                               |                                                                                                   |
+|---------------------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/correlcon/correlaid#1)           | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelCon_2020) |
+| OODM 2020 "Interactive Science" | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_OODM_CorrelAid) |
+
+## Overview repository
 This repository contains: 
 ```
 ├── README.md
@@ -42,11 +52,7 @@ This repository contains:
         └── app.R
 ```
 
-You can access the material for past talks on this ShinyApp here:
-| Event                           |                                                                               |                                                                                                   |
-|---------------------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/correlcon/correlaid#1)           | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelCon_2020) |
-| OODM 2020 "Interactive Science" | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_OODM_CorrelAid) |
+## Additional input
 
 ⚡ Optimize your ShinyApp
  - [Make your ShinyApp faster](https://appsilon.com/r-shiny-faster-updateinput-css-javascript/)
