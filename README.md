@@ -26,15 +26,15 @@ This repository contains:
 ├── markdown
 │   ├── about.md
 │   └── git.md
-└── material_CorrelCon_2020
-    ├── example_ShinyApp_ggplot
-    │   └── app.R
-    └── example_ShinyApp_shinydashboard_ggplot
-        └── app.R
-    ├── example_ShinyApp_echarts4r
-    │   └── app.R
-    └── example_ShinyApp_shinydashboard_echarts4r
-        └── app.R
+├── material_CorrelCon_2020
+│   ├── example_ShinyApp_ggplot
+│   │   └── app.R
+│   ├── example_ShinyApp_shinydashboard_ggplot
+│   │   └──  app.R
+│   ├── example_ShinyApp_echarts4r
+│   │   └── app.R
+│   └── example_ShinyApp_shinydashboard_echarts4r
+│       └── app.R
 └── material_OODM_CorrelAid
     ├── example_ShinyApp
     │   └── app.R
