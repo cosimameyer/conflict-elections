@@ -26,6 +26,15 @@ This repository contains:
 ├── markdown
 │   ├── about.md
 │   └── git.md
+└── material_CorrelCon_2020
+    ├── example_ShinyApp_ggplot
+    │   └── app.R
+    └── example_ShinyApp_shinydashboard_ggplot
+        └── app.R
+    ├── example_ShinyApp_echarts4r
+    │   └── app.R
+    └── example_ShinyApp_shinydashboard_echarts4r
+        └── app.R
 └── material_OODM_CorrelAid
     ├── example_ShinyApp
     │   └── app.R
@@ -33,8 +42,11 @@ This repository contains:
         └── app.R
 ```
 
-You can access the **slides from the OODM 2020 at CorrelAid [here](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1)**.
-
+You can access the material for past talks on this ShinyApp here:
+| Event                           |                                                                               |                                     |
+|---------------------------------|-------------------------------------------------------------------------------|-------------------------------------|
+| OODM 2020 "Interactive Science" |                                                                               |                                     |
+| CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](material_OODM_CorrelAid) |
 
 ⚡ Optimize your ShinyApp
  - [Make your ShinyApp faster](https://appsilon.com/r-shiny-faster-updateinput-css-javascript/)
