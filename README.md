@@ -45,8 +45,8 @@ This repository contains:
 You can access the material for past talks on this ShinyApp here:
 | Event                           |                                                                               |                                     |
 |---------------------------------|-------------------------------------------------------------------------------|-------------------------------------|
-| OODM 2020 "Interactive Science" |                                                                               |                                     |
-| CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](material_OODM_CorrelAid) |
+| CorrelCon 2020 "Talking Shiny"  |                                                                               |                                     |
+| OODM 2020 "Interactive Science" | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](material_OODM_CorrelAid) |
 
 ⚡ Optimize your ShinyApp
  - [Make your ShinyApp faster](https://appsilon.com/r-shiny-faster-updateinput-css-javascript/)
