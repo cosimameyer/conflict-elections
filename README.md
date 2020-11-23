@@ -15,7 +15,7 @@ While the geo-spatially disaggregated data for the original publication is based
 You can access the material for past talks on this ShinyApp here:
 | Event                           |                                                                               |                                                                                                   |
 |---------------------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| "Shiny"  | Slides           | Material |
+| CorrelAid Workshop 2020 "Shiny"  | Slides           | Material |
 | CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/correlcon/talk#1)           | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelCon_2020) |
 | OODM 2020 "Interactive Science" | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_OODM_CorrelAid) |
 
