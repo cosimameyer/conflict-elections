@@ -13,11 +13,11 @@ While the geo-spatially disaggregated data for the original publication is based
 ## Material
 
 You can access the material for past talks on this ShinyApp here:
-| Event                           |                                                                               |                                                                                                   |
-|---------------------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| CorrelAid Workshop 2020 "Shiny"  | [Slides](http://cosimameyer.rbind.io/slides/correlaid-workshop/talk.html#1)           | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelAid_Workshop) |
-| CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/correlcon/talk#1)           | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelCon_2020) |
-| OODM 2020 "Interactive Science" | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_OODM_CorrelAid) |
+| Event                           |                                                                               |                                                                                                       |                                                          |
+|---------------------------------|-------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------|----------------------------------------------------------|
+| CorrelAid Workshop 2020 "Shiny" | [Slides](http://cosimameyer.rbind.io/slides/correlaid-workshop/talk.html#1)   | [Code](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelAid_Workshop) |                                                          |
+| CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/correlcon/talk#1)                | [Code](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelCon_2020)     | [Recording](https://www.youtube.com/watch?v=NOzi6GErpsA) |
+| OODM 2020 "Interactive Science" | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Code](https://github.com/cosimameyer/conflict-elections/tree/master/material_OODM_CorrelAid)     |                                                          |
 
 ## Overview repository
 This repository contains: 
