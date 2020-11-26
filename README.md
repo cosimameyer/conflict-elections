@@ -15,7 +15,7 @@ While the geo-spatially disaggregated data for the original publication is based
 You can access the material for past talks on this ShinyApp here:
 | Event                           |                                                                               |                                                                                                   |
 |---------------------------------|-------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| CorrelAid Workshop 2020 "Shiny"  | Slides           | Material |
+| CorrelAid Workshop 2020 "Shiny"  | [Slides](http://cosimameyer.rbind.io/slides/correlaid-workshop/talk.html#1)           | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelAid_Workshop) |
 | CorrelCon 2020 "Talking Shiny"  | [Slides](https://cosimameyer.rbind.io/slides/correlcon/talk#1)           | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_CorrelCon_2020) |
 | OODM 2020 "Interactive Science" | [Slides](https://cosimameyer.rbind.io/slides/interactive-science/correlaid#1) | [Material](https://github.com/cosimameyer/conflict-elections/tree/master/material_OODM_CorrelAid) |
 
@@ -37,6 +37,11 @@ This repository contains:
 ├── markdown
 │   ├── about.md
 │   └── git.md
+├── material_CorrelAid_Workshop
+│   ├── example_ShinyApp_ggplot
+│   │   └── app.R
+│   ├── example_ShinyApp_shinydashboard_ggplot
+│   │   └──  app.R
 ├── material_CorrelCon_2020
 │   ├── example_ShinyApp_ggplot
 │   │   └── app.R
