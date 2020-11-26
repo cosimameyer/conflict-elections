@@ -53,14 +53,7 @@ server <- function(input, output) {
     
     # Prepare the data and add colors
     penguins %<>%
-      dplyr::filter(species %in% input$penguinType) %>% 
-      dplyr::mutate(
-        color = case_when(
-          species == "Adelie" ~ "#35b1c9",
-          species == "Chinstrap" ~ "#ebc83d",
-          species == "Gentoo" ~ "#badf55"
-        )
-      )
+      dplyr::filter(species %in% input$penguinType)
     
     # Use ggplot2 to generate a scatter plot where the flipper length is 
     # plotted against weight
@@ -69,9 +62,10 @@ server <- function(input, output) {
         x = body_mass_g,
         y = flipper_length_mm,
         color = species)) +
-      geom_point(size = 10) +
+      geom_point() +
       labs(x = "Flipper \nlength",
-           y = "Weight (in gram)")
+           y = "Weight (in gram)") +
+      theme_minimal()
   })
 }
 
