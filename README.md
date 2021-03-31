@@ -1,12 +1,10 @@
-[![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://matt.dray.shinyapps.io/randoflag/)
-
 # ShinyApp: Conflict Elections in Afghanistan in 2019
 
 ## What the project is about
 
 [![](figures/shinyapp-conflict.png)](https://cosima-meyer.shinyapps.io/conflict-elections/)
 
-You can access the ShinyApp [here](https://cosima-meyer.shinyapps.io/conflict-elections/).
+You can access the ShinyApp [here](https://cosima-meyer.shinyapps.io/conflict-elections/). [![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://cosima-meyer.shinyapps.io/conflict-elections/)
 
 This project is a spin-off of a co-authored publication with [Dennis Hammerschmidt](https://github.com/dennis-hammerschmidt) that [analyzes patterns of violence during conflict elections in Afghanistan](https://www.ceeol.com/search/article-detail?id=775100) in 2005.
 
