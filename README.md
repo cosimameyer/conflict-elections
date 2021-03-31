@@ -1,3 +1,5 @@
+[![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](https://matt.dray.shinyapps.io/randoflag/)
+
 # ShinyApp: Conflict Elections in Afghanistan in 2019
 
 ## What the project is about
